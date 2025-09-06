@@ -1,5 +1,5 @@
 .img{
-    background-image: url(./Images/image.png);
+    background-image: url(./Images/clock.png);
     background-repeat: no-repeat;
     background-size: cover;   
     background-position: center; 
@@ -12,9 +12,9 @@
     background-color: rgba(173, 218, 237, 0.1);
     position: relative;
     top: 200px;
-    left: 150px;
+    left: 200px;
     border-radius: 14px;
-    box-shadow: 3px 3px 20px rgb(67, 178, 226);
+    box-shadow: 3px 3px 17px 5px rgb(67, 178, 226);
     display: flex;
     font-size: 40px;
     align-items: center;
@@ -23,7 +23,7 @@
 }
 .hh{
     height: 50px;
-    width: 90px;
+    width: 85px;
     border: 2px solid rgb(50, 175, 163);
     border-radius: 13px;
     align-items: center;
@@ -35,28 +35,31 @@
 }
 .mm{
     height: 50px;
-    width: 90px;
+    width: 85px;
     border: 2px solid rgb(50, 175, 163);
     border-radius: 13px;
     padding-left:6%;
-    background-color: rgba(191, 121, 83, 0.5);
+    background-color: rgba(191, 121, 83, 0.1);
     box-shadow: 2px 2px 18px 3px white;
     font-family: 'Roboto Mono', monospace;
     color: white;
 }
 .ss{
     height: 50px;
-    width: 90px;
+    width: 85px;
     border: 2px solid rgb(50, 175, 163);
     border-radius: 13px;
     padding-left: 8%;
-    background-color: rgba(222, 209, 33, 0.5);
+    background-color: rgba(222, 209, 33, 0.1);
     box-shadow: 2px 2px 18px 3px white;
     font-family: 'Roboto Mono', monospace;
     color: white;
 }
 h1{
-    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #eeebed;
     position: relative;
     top: 200px;
     left: 260px;
@@ -65,13 +68,13 @@ h1{
     .box{
     height: 80px;
     width: 300px;
-    border: 2px solid rgb(51, 138, 167);
+    border: 1px solid rgb(245, 103, 117);
     background-color: rgba(173, 218, 237, 0.1);
     position: relative;
     top: 10px;
     left: 10px;
     border-radius: 14px;
-    box-shadow: 3px 3px 20px rgb(67, 178, 226);
+    /* box-shadow: 3px 3px 20px rgb(232, 113, 125); */
     display: flex;
     font-size: 40px;
     align-items: center;
@@ -82,7 +85,9 @@ h1{
     color: white;
     position: relative;
     top: 10px;
-    left: 90px;
+    left: 70px;
+    font-size: 30px;
+     font-family: 'Orbitron', sans-serif;
 }
 .img{
     background-image: url(./Images/image.png);
@@ -90,7 +95,41 @@ h1{
     background-size: cover;   
     background-position: center; 
     min-height: 100vh;  
-     min-width: 10vh;    
+     
+}
+.hh{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(186, 89, 15);
+    border-radius: 13px;
+    align-items: center;
+    padding-left: 15px;
+    background-color: rgba(173, 218, 237, 0.1);
+    /* box-shadow: 2px 2px 18px 3px white; */
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+.mm{
+    height: 50px;
+    width: 50px;
+    border: 2px solid  rgb(186, 89, 15);
+    border-radius: 13px;
+    padding-left:6%;
+    background-color: rgba(191, 121, 83, 0.1);
+    box-shadow: 2px 2px 18px 3px white;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+.ss{
+    height: 50px;
+    width: 50px;
+    border: 2px solid  rgb(186, 89, 15);
+    border-radius: 13px;
+    padding-left: 8%;
+    background-color: rgba(171, 94, 52, 0.1);
+    box-shadow: 2px 2px 18px 3px white;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
 }
   
 }
