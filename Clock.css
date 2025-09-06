@@ -3,10 +3,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.h1{
-    background-color: red;
-    color: blue;
-}
 .box{
     height: 100px;
     width: 400px;
@@ -23,7 +19,7 @@ body{
     justify-content: center;
     justify-content: space-evenly;
 }
-.mm{
+.hh{
     height: 50px;
     width: 90px;
     border: 2px solid rgb(50, 175, 163);
@@ -35,7 +31,7 @@ body{
     font-family: 'Roboto Mono', monospace;
     color: white;
 }
-.dd{
+.mm{
     height: 50px;
     width: 90px;
     border: 2px solid rgb(50, 175, 163);
@@ -46,7 +42,7 @@ body{
     font-family: 'Roboto Mono', monospace;
     color: white;
 }
-.yy{
+.ss{
     height: 50px;
     width: 90px;
     border: 2px solid rgb(50, 175, 163);
