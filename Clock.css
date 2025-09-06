@@ -2,7 +2,6 @@ body{
     background-image: url(./Images/image.png);
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 .h1{
     background-color: red;
@@ -16,6 +15,51 @@ body{
     position: relative;
     top: 200px;
     left: 150px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px white;
+    border-radius: 14px;
+    box-shadow: 3px 3px 20px rgb(67, 178, 226);
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.mm{
+    height: 50px;
+    width: 90px;
+    border: 2px solid rgb(50, 175, 163);
+    border-radius: 13px;
+    align-items: center;
+    padding-left: 15px;
+    background-color: rgba(173, 218, 237, 0.1);
+    box-shadow: 2px 2px 18px 3px white;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+.dd{
+    height: 50px;
+    width: 90px;
+    border: 2px solid rgb(50, 175, 163);
+    border-radius: 13px;
+    padding-left:6%;
+    background-color: rgba(191, 121, 83, 0.5);
+    box-shadow: 2px 2px 18px 3px white;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+.yy{
+    height: 50px;
+    width: 90px;
+    border: 2px solid rgb(50, 175, 163);
+    border-radius: 13px;
+    padding-left: 8%;
+    background-color: rgba(222, 209, 33, 0.5);
+    box-shadow: 2px 2px 18px 3px white;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+h1{
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 260px;
 }
