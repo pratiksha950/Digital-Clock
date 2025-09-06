@@ -1,7 +1,9 @@
-body{
+.img{
     background-image: url(./Images/image.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;   
+    background-position: center; 
+    min-height: 100vh;     
 }
 .box{
     height: 100px;
@@ -58,4 +60,37 @@ h1{
     position: relative;
     top: 200px;
     left: 260px;
+}
+@media (max-width: 600px) {
+    .box{
+    height: 80px;
+    width: 300px;
+    border: 2px solid rgb(51, 138, 167);
+    background-color: rgba(173, 218, 237, 0.1);
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 20px rgb(67, 178, 226);
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+h1{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 90px;
+}
+.img{
+    background-image: url(./Images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center; 
+    min-height: 100vh;  
+     min-width: 10vh;    
+}
+  
 }
