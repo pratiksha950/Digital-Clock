@@ -8,3 +8,14 @@ body{
     background-color: red;
     color: blue;
 }
+.box{
+    height: 100px;
+    width: 400px;
+    border: 2px solid rgb(51, 138, 167);
+    background-color: rgba(173, 218, 237, 0.1);
+    position: relative;
+    top: 200px;
+    left: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px white;
+}
